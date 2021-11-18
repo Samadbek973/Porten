@@ -1,0 +1,440 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1263px;
+  
+}
+
+.top_line {
+  background-color: black;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  font-size: x-small;
+}
+
+.top_line ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  padding: 15px;
+  color: slategrey;
+}
+
+.top_line ul span {
+  margin: 0 8px;
+}
+
+.top_line ul li i {
+  margin-right: 5px;
+}
+
+.second_line {
+  background-color: #0f0f0f;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  text-transform: uppercase;
+}
+
+.second_line p {
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 25px;
+}
+
+.second_line ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  padding: 30px;
+}
+
+.second_line ul li {
+  font-family: FreeMono, monospace;
+  margin: 0 15px;
+}
+
+.one {
+  
+  background-image: url("https://images.unsplash.com/photo-1592878940526-0214b0f374f6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 860px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  color: white;
+}
+
+.one .main_logo {
+  border: 3px solid white;
+  color: white;
+  padding: 120px 50px;
+  margin-bottom: 60px;
+}
+
+.one .main_logo h1 {
+  font-weight: lighter;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  border-bottom: 1px solid white;
+}
+
+.one .main_logo h3 {
+  text-align: center;
+  font-size: 30px;
+}
+
+.one p {
+  text-transform: uppercase;
+  text-align: center;
+  width: 600px;
+}
+
+.second {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.second .watch {
+  background-color: #000;
+  color: #ffffff;
+  width: 48%;
+  padding: 60px 0;
+}
+
+.second .watch h2 {
+  color: white;
+  text-align: center;
+}
+
+.second .watch hr {
+  width: 50px;
+  margin: 25px 290px;
+}
+
+.second .watch .watches {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.second .watch .watches img {
+  width: 190px;
+  height: 250px;
+}
+
+.second .watch_colletions {
+  background-image: url("https://images.unsplash.com/photo-1491336477066-31156b5e4f35?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80");
+  background-repeat: no-repeat;
+  background-size: 1000px;
+  width: 657px;
+  height: 600px;
+  color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+}
+
+.second .watch_colletions h2 {
+  font-size: 30px;
+}
+
+.second .watch_colletions hr {
+  width: 90px;
+  height: 3px;
+  border: none;
+  background-color: #b8b2b2;
+  margin: 25px 290px;
+}
+
+.second .watch_colletions button {
+  color: #fff;
+  padding: 8px 25px;
+  border-color: white;
+  border-style: solid;
+  border-radius: 5px;
+  background: transparent;
+}
+
+.three {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #fff;
+}
+
+.three .fon_kostum {
+  width: 2000px;
+  background-image: url("https://images.unsplash.com/photo-1507428861205-e8aab693190e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=760&q=80");
+  background-repeat: no-repeat;
+}
+
+.three .desc_collection {
+  background-color: #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 2500px;
+  height: 500px;
+}
+
+.three .desc_collection h2 {
+  font-size: 30px;
+}
+
+.three .desc_collection hr {
+  width: 90px;
+  height: 3px;
+  border: none;
+  background-color: #b8b2b2;
+  margin: 30px;
+}
+
+.three .desc_collection p {
+  text-align: center;
+  width: 380px;
+}
+
+.three .desc_collection button {
+  margin-top: 30px;
+  color: #fff;
+  padding: 8px 25px;
+  border-color: white;
+  border-style: solid;
+  border-radius: 5px;
+  background: transparent;
+}
+
+.four {
+  width: 1263px;
+  height: 900px;
+  background-color: black;
+  color: white;
+}
+
+.four .new-watches {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  width: 1000px;
+  position: relative;
+  top: 150px;
+  left: 150px;
+}
+
+.four h2 {
+  position: relative;
+  top: 55px;
+  left: 500px;
+}
+
+.four hr {
+  width: 90px;
+  height: 3px;
+  border: none;
+  background-color: #b8b2b2;
+  position: relative;
+  top: 100px;
+  left: 590px;
+}
+
+.four .price_watch {
+  margin: 20px;
+}
+
+.four img {
+  width: 190px;
+  height: 250px;
+}
+
+.five {
+  background-color: #0f0f0f;
+  color: white;
+  height: 500px;
+}
+
+.five h2 {
+  font-size: 40px;
+  position: relative;
+  top: 60px;
+  left: 490px;
+}
+
+.five hr {
+  width: 110px;
+  height: 3px;
+  border: none;
+  background-color: #b8b2b2;
+  position: relative;
+  top: 100px;
+  left: 590px;
+}
+
+.five .our_logo {
+  position: relative;
+  top: 200px;
+  left: 130px;
+}
+
+.five .our_logo img {
+  margin: 0 30px;
+  width: 190px;
+}
+
+.six {
+  background-image: url("https://images.unsplash.com/photo-1489370603040-dc6c28a1d37a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=889&q=80");
+  background-size: 1263px;
+  background-repeat: no-repeat;
+  width: 1263px;
+  height: 500px;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.six .on_magazine p {
+  width: 350px;
+  padding: 30px 0;
+}
+
+.six .categories p {
+  padding: 10px;
+  background-color: black;
+  margin: 10px;
+  text-align: center;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.six .rassilka p {
+  width: 350px;
+  padding: 30px 0;
+}
+
+.six .rassilka input {
+  padding: 9px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.six .rassilka input::-webkit-input-placeholder {
+  color: white;
+}
+
+.six .rassilka input::-moz-placeholder {
+  color: white;
+}
+
+.six .rassilka input:-ms-input-placeholder {
+  color: white;
+}
+
+.six .rassilka input::-ms-input-placeholder {
+  color: white;
+}
+
+.six .rassilka input::placeholder {
+  color: white;
+}
+
+.six .rassilka button {
+  padding: 8px;
+  background-color: black;
+  color: white;
+  border: none;
+}
+
+footer {
+  background-color: black;
+  color: #d0d0d0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 50px;
+}

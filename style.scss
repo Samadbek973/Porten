@@ -1,0 +1,338 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1263px;
+  // height: 4357px;
+}
+
+.top_line {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  font-size: x-small;
+  ul {
+    display: flex;
+    list-style: none;
+    padding: 15px;
+    color: slategrey;
+
+    span {
+      margin: 0 8px;
+    }
+
+    li {
+      i {
+        margin-right: 5px;
+      }
+    }
+  }
+}
+
+.second_line {
+  background-color: rgba(15, 15, 15, 1);
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  text-transform: uppercase;
+
+  p {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 25px;
+  }
+
+  ul {
+    display: flex;
+    list-style: none;
+    padding: 30px;
+
+    li {
+      font-family: FreeMono, monospace;
+      margin: 0 15px;
+    }
+  }
+}
+
+.one {
+  background-image: url("https://images.unsplash.com/photo-1592878940526-0214b0f374f6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 860px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+
+  .main_logo {
+    border: 3px solid white;
+    color: white;
+    padding: 120px 50px;
+    margin-bottom: 60px;
+
+    h1 {
+      font-weight: lighter;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 50px;
+      border-bottom: 1px solid white;
+    }
+    h3 {
+      text-align: center;
+      font-size: 30px;
+    }
+  }
+  p {
+    text-transform: uppercase;
+    text-align: center;
+    width: 600px;
+  }
+}
+
+.second {
+  display: flex;
+  .watch {
+    background-color: #000;
+    color: #ffffff;
+    width: 48%;
+    padding: 60px 0;
+
+    h2 {
+      color: white;
+      text-align: center;
+    }
+    hr {
+      width: 50px;
+      margin: 25px 290px;
+    }
+
+    .watches {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      img {
+        width: 190px;
+        height: 250px;
+      }
+    }
+  }
+
+  .watch_colletions {
+    background-image: url("https://images.unsplash.com/photo-1491336477066-31156b5e4f35?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80");
+    background-repeat: no-repeat;
+    background-size: 1000px;
+    width: 657px;
+    height: 600px;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+    h2 {
+      font-size: 30px;
+    }
+    hr {
+      width: 90px;
+      height: 3px;
+      border: none;
+      background-color: rgb(184, 178, 178);
+      margin: 25px 290px;
+    }
+    button {
+      color: #fff;
+      padding: 8px 25px;
+      border-color: white;
+      border-style: solid;
+      border-radius: 5px;
+      background: transparent;
+    }
+  }
+}
+
+.three {
+  display: flex;
+  color: #fff;
+  .fon_kostum {
+    width: 2000px;
+
+    background-image: url("https://images.unsplash.com/photo-1507428861205-e8aab693190e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=760&q=80");
+    background-repeat: no-repeat;
+  }
+
+  .desc_collection {
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 2500px;
+    height: 500px;
+    h2 {
+      font-size: 30px;
+    }
+    hr {
+      width: 90px;
+      height: 3px;
+      border: none;
+      background-color: rgb(184, 178, 178);
+      margin: 30px;
+    }
+    p {
+      text-align: center;
+      width: 380px;
+    }
+
+    button {
+      margin-top: 30px;
+      color: #fff;
+      padding: 8px 25px;
+      border-color: white;
+      border-style: solid;
+      border-radius: 5px;
+      background: transparent;
+    }
+  }
+}
+
+.four {
+  width: 1263px;
+  height: 900px;
+  background-color: black;
+  color: white;
+  .new-watches {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 1000px;
+    position: relative;
+    top: 150px;
+    left: 150px;
+  }
+
+  h2 {
+    position: relative;
+    top: 55px;
+    left: 500px;
+  }
+
+  hr {
+    width: 90px;
+    height: 3px;
+    border: none;
+    background-color: rgb(184, 178, 178);
+    position: relative;
+    top: 100px;
+    left: 590px;
+  }
+
+  .price_watch {
+    margin: 20px;
+  }
+  img {
+    width: 190px;
+    height: 250px;
+  }
+}
+
+.five {
+  background-color: #0f0f0f;
+  color: white;
+  height: 500px;
+
+  h2 {
+    font-size: 40px;
+    position: relative;
+    top: 60px;
+    left: 490px;
+  }
+  hr {
+    width: 110px;
+    height: 3px;
+    border: none;
+    background-color: rgb(184, 178, 178);
+    position: relative;
+    top: 100px;
+    left: 590px;
+  }
+  .our_logo {
+    position: relative;
+    top: 200px;
+    left: 130px;
+    img {
+      margin: 0 30px;
+      width: 190px;
+    }
+  }
+}
+
+.six {
+  background-image: url("https://images.unsplash.com/photo-1489370603040-dc6c28a1d37a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=889&q=80");
+  background-size: 1263px;
+  background-repeat: no-repeat;
+  width: 1263px;
+  height: 500px;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  .on_magazine {
+    p {
+      width: 350px;
+      padding: 30px 0;
+    }
+  }
+
+  .categories {
+    p {
+      padding: 10px;
+      background-color: black;
+      margin: 10px;
+      text-align: center;
+      width: max-content;
+      display: flex;
+      justify-content: space-around;
+      flex-direction: row;
+      align-items: center;
+      cursor: pointer;
+    }
+  }
+
+  .rassilka {
+    p {
+      width: 350px;
+      padding: 30px 0;
+    }
+    input {
+      padding: 9px;
+      border: none;
+      background-color: rgba(255, 255, 255, 0.4);
+      &::placeholder {
+        color: white;
+      }
+    }
+
+    button {
+      padding: 8px;
+      background-color: black;
+      color: white;
+      border: none;
+    }
+  }
+}
+
+footer {
+  background-color: black;
+  color: rgba(208,208,208,1);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+ height: 50px;
+}
